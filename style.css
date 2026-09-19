@@ -1,0 +1,34 @@
+
+:root{--g:#073b32;--g2:#0d5445;--gold:#d4ad4d;--cream:#f7f1e4;--ink:#17201d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fffdf8;color:var(--ink);font-family:Georgia,'Times New Roman',serif}
+nav{background:var(--g);padding:20px 6%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:5}
+.logo{color:white;font-size:24px;font-weight:bold}.logo span{color:var(--gold)}nav a{color:#fff;text-decoration:none;margin-left:18px;font:13px Arial,sans-serif}
+.hero{min-height:82vh;padding:90px 8%;display:flex;align-items:center;color:#fff;background:linear-gradient(90deg,rgba(3,45,37,.98),rgba(3,45,37,.80) 52%,rgba(3,45,37,.12)),url('alpha-toure.jpg') center/cover}
+.hero>div{max-width:660px}.ey{font:12px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:#ead07e}h1{font-size:clamp(45px,7vw,82px);line-height:1;margin:16px 0}h1 span{color:var(--gold)}
+.hero p{font-size:23px;line-height:1.55}.motto{border-left:2px solid var(--gold);padding-left:18px;font-style:italic;margin:25px 0}.button{display:inline-block;padding:13px 19px;background:var(--gold);color:var(--g);text-decoration:none;font:bold 12px Arial,sans-serif;letter-spacing:.07em}
+main{min-height:65vh}.wrap{max-width:1100px;margin:auto;padding:70px 6%}.title{font-size:40px;color:var(--g);margin:7px 0 22px}.intro{font-size:19px;line-height:1.75;max-width:850px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px}.card{background:white;padding:27px;border-top:3px solid var(--gold);box-shadow:0 8px 28px #123b2d13}.card h2,.card h3{color:var(--g)}.card p{line-height:1.65}.card a{color:#86681c;text-decoration:none;font-weight:bold}
+.feature{background:var(--cream)}.article{max-width:820px}.article h2{color:var(--g);margin-top:34px}.article p{font-size:18px;line-height:1.8}.quote{padding:65px 8%;background:var(--g);color:white;text-align:center;font-size:28px;line-height:1.5}
+footer{padding:34px 7%;background:#042b24;color:#dbe5df;display:flex;justify-content:space-between;font:13px Arial,sans-serif}
+@media(max-width:800px){nav .menu{display:none}.hero{padding:85px 7%;background:linear-gradient(rgba(3,45,37,.72),rgba(3,45,37,.88)),url('alpha-toure.jpg') center/cover}.hero p{font-size:20px}.grid{grid-template-columns:1fr}.title{font-size:34px}footer{display:block;line-height:2}}
+
+.hero-mini{padding:70px 8%;background:linear-gradient(110deg,#073b32,#0d5445);color:white}
+.hero-mini h1{font-size:52px;margin:10px 0}.hero-mini p{font-size:20px;line-height:1.6;max-width:800px}
+.section-label{font:12px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#9b7924}
+.timeline{border-left:2px solid #d4ad4d;padding-left:28px;margin:35px 0}.timeline div{margin:0 0 26px}.timeline b{color:#073b32}
+.reading{padding:20px 0;border-bottom:1px solid #e8dfcd}.reading h3{margin-bottom:8px;color:#073b32}.tag{display:inline-block;background:#f1e6c8;color:#654f19;padding:5px 9px;margin:4px 5px 4px 0;font:11px Arial,sans-serif}
+.callout{background:#f7f1e4;border-left:4px solid #d4ad4d;padding:25px;margin:35px 0;font-size:19px;line-height:1.7}
+.contactbox{background:#f7f1e4;padding:35px;margin-top:35px}.contactbox p{line-height:1.7}
+
+.bookhero{display:grid;grid-template-columns:1.2fr .8fr;gap:45px;align-items:center}
+.bookcover{background:#073b32;color:white;padding:48px 34px;min-height:430px;display:flex;flex-direction:column;justify-content:center;text-align:center;box-shadow:0 18px 45px #123b2d2b;border:1px solid #d4ad4d}
+.bookcover .bt{font-size:38px;line-height:1.05;color:#e0bd60}.bookcover .sub{font-style:italic;line-height:1.6}.bookcover .author{margin-top:55px;letter-spacing:.15em}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:30px 0}.stat{background:#f7f1e4;padding:18px;text-align:center}.stat b{display:block;font-size:23px;color:#073b32}
+.featurelinks{display:grid;grid-template-columns:1fr 1fr;gap:18px}.featurelinks a{display:block;padding:22px;background:white;border:1px solid #eadfca;text-decoration:none;color:#073b32;font-weight:bold}
+@media(max-width:800px){.bookhero,.featurelinks,.stats{grid-template-columns:1fr}}
+
+.prologue{font-size:20px;line-height:1.9;background:#fff;padding:34px;border-left:4px solid #d4ad4d;box-shadow:0 8px 28px #123b2d12}
+.chaptergrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:30px 0}
+.chapter{padding:24px;background:#f7f1e4}.chapter b{display:block;color:#073b32;font-size:19px;margin-bottom:7px}
+.library{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.shelf{background:white;border:1px solid #e8deca;padding:28px;min-height:245px;display:flex;flex-direction:column}.shelf h3{color:#073b32}.shelf .meta{font:11px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#927221}.shelf a{margin-top:auto;color:#7b601a;text-decoration:none;font-weight:bold}
+@media(max-width:800px){.chaptergrid,.library{grid-template-columns:1fr}}
